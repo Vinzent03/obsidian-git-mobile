@@ -1,0 +1,8 @@
+{
+  "id": "obsidian-git-mobile",
+  "name": "Obsidian Git Mobile",
+  "description": "Backup your vault with git.",
+  "isDesktopOnly": false,
+  "js": "main.js",
+  "version": "2.0.0"
+}
