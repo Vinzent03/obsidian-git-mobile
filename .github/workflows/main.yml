@@ -42,7 +42,7 @@ jobs:
       with:
         node-version: '14.x'
     - run: |
-        git clone https://github.com/denolehov/obsidian-git.git
+        git clone -b isomorphic-git https://github.com/warrenalphonso/obsidian-git.git
     # Build the plugin
     - name: Build
       id: build
@@ -51,7 +51,7 @@ jobs:
         rm src/simpleGit.ts
         mv ../simpleGit.ts simpleGit.ts
         npm install
-        npm run build --if-present
+        npm run buildbrowser --if-present
     # Package the required files into a zip
     - name: Package
       run: |
