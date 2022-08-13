@@ -10,8 +10,7 @@ This plugin is currently in beta. It is not recommended to use it with a real gi
 ## Consequences of the mobile version
 
 I am using [isomorphic-git](https://isomorphic-git.org/), which is a re-implementation of git in JavaScript, because you cannot use native git on Android or iOS. This brings some problems with it though.
-- Merging with conflicts is currently not supported ([isomorphic-git issue](https://github.com/isomorphic-git/isomorphic-git/issues/325))
-- SSH authentication is not supported ([isomorphic-git issue](https://github.com/isomorphic-git/isomorphic-git/issues/231)
+- SSH authentication is not supported ([isomorphic-git issue](https://github.com/isomorphic-git/isomorphic-git/issues/231))
 - Repo size is limited, because of memory issues
 - Rebase merge strategy is not available
 
