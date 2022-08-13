@@ -49,7 +49,7 @@ jobs:
       run: |
         cd obsidian-git
         rm src/simpleGit.ts
-        mv ../simpleGit.ts simpleGit.ts
+        mv ../simpleGit.ts src/simpleGit.ts
         npm install
         npm run buildbrowser --if-present
     # Package the required files into a zip
