@@ -1,6 +1,6 @@
 {
   "id": "obsidian-git-isomorphic",
-  "name": "Obsidian Git isomorphic",
+  "name": "Obsidian Git Isomorphic",
   "description": "Backup your vault with git.",
   "isDesktopOnly": false,
   "js": "main.js",
