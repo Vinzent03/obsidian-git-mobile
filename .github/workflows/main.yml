@@ -42,7 +42,7 @@ jobs:
       with:
         node-version: '14.x'
     - run: |
-        git clone -b isomorphic-git https://github.com/warrenalphonso/obsidian-git.git
+        git clone https://github.com/denolehov/obsidian-git.git
     # Build the plugin
     - name: Build
       id: build
