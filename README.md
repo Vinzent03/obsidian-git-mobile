@@ -5,16 +5,17 @@ This is the mobile version of the [obsidian-git](https://github.com/denolehov/ob
 Please file bugs or feature requests on the [origin repo](https://github.com/denolehov/obsidian-git/issues). 
 
 ## Caution
-This plugin is currently in beta. It is not recommended to use it with a real git repository. At least do another backup.
+This plugin is currently in beta.
 
-## Consequences of the mobile version
+## Restrictions of the mobile version
 
-I am using [isomorphic-git](https://isomorphic-git.org/), which is a re-implementation of git in JavaScript, because you cannot use native git on Android or iOS. This brings some problems with it though.
+I am using [isomorphic-git](https://isomorphic-git.org/), which is a re-implementation of git in JavaScript, because you cannot use native git on Android or iOS.
+
 - SSH authentication is not supported ([isomorphic-git issue](https://github.com/isomorphic-git/isomorphic-git/issues/231))
-- Repo size is limited, because of memory issues
+- Repo size is limited, because of memory restrictions
 - Rebase merge strategy is not available
 
-## Installation and clone repo
+## Installation and clone a repo
 
 1. Create new vault
 2. Change config directory in Settings -> About
