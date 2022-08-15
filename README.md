@@ -25,7 +25,13 @@ I am using [isomorphic-git](https://isomorphic-git.org/), which is a re-implemen
 6. Execute clone repo command
 7. Reload plugin
 
+## Performance
 
+On an iPad Pro with M1 with a [repo](https://github.com/Vinzent03/obsidian-git-stress-test) of 3000 files reduced from [1000 markdown files](https://github.com/Zettelkasten-Method/10000-markdown-files)
+
+takes the status command to list changed files 03:40 min.
+Pull, push and commit are very fast (1-5 seconds).
+Clone takes 00:25 min.
 
 If you find this plugin useful and would like to support its development, you can support me on [Ko-fi](https://Ko-fi.com/Vinzent).
 
