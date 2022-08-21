@@ -1,4 +1,4 @@
-# Obsidian Git Isomorphic
+# Obsidian Git Mobile
 
 This is the mobile version of the [obsidian-git](https://github.com/denolehov/obsidian-git) plugin. It is the same plugin except of some tweaks to fix the import of node APIs.
 
@@ -21,7 +21,7 @@ I am using [isomorphic-git](https://isomorphic-git.org/), which is a re-implemen
 2. Change config directory in Settings -> About
 3. Install Community Plugin BRAT
 4. Install `Vinzent03/obsidian-git-isomorphic` from BRAT
-5. If cloning private repo, set password/personal access token and username in Settings -> Obsidian Git Isomorphic
+5. If cloning private repo, set password/personal access token and username in Settings -> Obsidian Git Mobile
 6. Execute clone repo command
 7. Reload plugin
 

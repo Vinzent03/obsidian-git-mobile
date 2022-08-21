@@ -1,7 +1,7 @@
 {
   "id": "obsidian-git-isomorphic",
-  "name": "Obsidian Git Isomorphic",
-  "description": "Backup your vault with git.",
+  "name": "Obsidian Git Mobile",
+  "description": "Backup your vault with Git on all devices",
   "isDesktopOnly": false,
   "js": "main.js",
   "version": "1.1.7"
