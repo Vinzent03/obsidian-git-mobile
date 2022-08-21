@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Open an Issue
+    url: https://github.com/denolehov/obsidian-git/issues/new/choose
+    about: I consolidate all issues on the main plugin repo.
