@@ -13,7 +13,8 @@ I am using [isomorphic-git](https://isomorphic-git.org/), which is a re-implemen
 
 - SSH authentication is not supported ([isomorphic-git issue](https://github.com/isomorphic-git/isomorphic-git/issues/231))
 - Repo size is limited, because of memory restrictions
-- Rebase merge strategy is not available
+- Rebase merge strategy is not supported
+- Submoduels are not supported
 
 ## Installation and clone a repo
 
