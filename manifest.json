@@ -4,5 +4,5 @@
   "description": "Backup your vault with Git on all devices",
   "isDesktopOnly": false,
   "js": "main.js",
-  "version": "1.12.1"
+  "version": "1.13.0"
 }
