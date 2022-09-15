@@ -1,3 +1,10 @@
+# ⚠ This repository is archived
+
+This plugin is now merged into the [main plugin](https://github.com/denolehov/obsidian-git).
+
+There won't be any updates here. Please install the `Obsidian Git` plugin instead.
+
+
 # Obsidian Git Mobile
 
 This is the mobile version of the [obsidian-git](https://github.com/denolehov/obsidian-git) plugin. It is the same plugin except of some tweaks to fix the import of node APIs.
